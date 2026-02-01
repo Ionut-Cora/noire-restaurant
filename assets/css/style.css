@@ -119,6 +119,14 @@ header .header-paragraph {
     width: 50%;
 }
 
+/* Reviews section */
+
+.reviews-section .card-title,
+.reviews-section .fa-star,
+.reviews-section .fa-star-half-stroke {
+    color: var(--secondary-color);
+}
+
 /* Large devices (small laptops, 992px and up) */
 
 @media screen and (min-width: 992px) {
