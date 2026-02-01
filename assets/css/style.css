@@ -7,6 +7,19 @@
 :root {
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
+    --primary-color: #F6F1E7; /* Cream */
+    --secondary-color: #3A2A1A; /* Espresso Brown */
+    --third-color: #C9A24D; /* Gold */
+    --fourth-color: #1F3D2B ; /* Deep Green */
+    --fifth-color-hover: #B08D3E; /* Gold - hover */
+}
+
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,4 +30,18 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    color: var(--secondary-color);
+}
+
+.bg-cream {
+    background-color: var(--primary-color);
 }
