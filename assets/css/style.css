@@ -113,6 +113,12 @@ header .header-paragraph {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header-bg3.jpg) no-repeat center center/cover;
 }
 
+/* About section */
+
+#about-us-section img {
+    width: 50%;
+}
+
 /* Large devices (small laptops, 992px and up) */
 
 @media screen and (min-width: 992px) {
