@@ -45,3 +45,54 @@ a {
 .bg-cream {
     background-color: var(--primary-color);
 }
+
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--third-color);
+    background-color: var(--third-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--fifth-color-hover);
+    background-color: var(--fifth-color-hover);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--third-color);
+    padding: 7px 25px;
+    color: white;
+}
+
+.custom-button-outline:hover {
+    background-color: var(--fifth-color-hover);
+    color: white;
+}
+
+/* Header */
+
+#header .carousel-item1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-bg1.jpg) no-repeat center center/cover;
+}
+
+header .header-paragraph {
+    width: 100%;
+}
+
+#header .carousel-item2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header-bg2.jpg) no-repeat center center/cover;
+}
+
+#header .carousel-item3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header-bg3.jpg) no-repeat center center/cover;
+}
+
+/* Large devices (small laptops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+    header .header-paragraph {
+        width: 50%;
+    }
+}
