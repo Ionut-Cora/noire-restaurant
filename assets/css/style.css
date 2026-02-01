@@ -71,6 +71,30 @@ a {
     color: white;
 }
 
+/* Navbar */
+
+#navbarNav {
+    background-color: var(--secondary-color);
+    position: static;
+}
+
+#nav-btn {
+    position: static;
+    margin-top: 1rem;
+}
+
+#navbar .navbar-brand span {
+    font-size: 1.5rem;
+}
+
+#navbar .navbar-toggler {
+    background-color: var(--third-color);
+}
+
+#navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
 /* Header */
 
 #header .carousel-item1 {
@@ -92,6 +116,16 @@ header .header-paragraph {
 /* Large devices (small laptops, 992px and up) */
 
 @media screen and (min-width: 992px) {
+    #navbarNav {
+        background-color: transparent;
+        position: relative;
+    }
+
+    #nav-btn {
+        position: absolute;
+        margin-top: 0;
+    }
+
     header .header-paragraph {
         width: 50%;
     }
