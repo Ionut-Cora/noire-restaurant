@@ -135,6 +135,20 @@ header .header-paragraph {
     color: var(--secondary-color);
 }
 
+/* Footer */
+
+footer {
+    background-color: var(--primary-color);
+}
+
+#footer-contact i {
+    font-size: 1.9rem;
+}
+
+footer .follow-section i:hover {
+    color: var(--fourth-color);
+}
+
 /* Large devices (small laptops, 992px and up) */
 
 @media screen and (min-width: 992px) {
