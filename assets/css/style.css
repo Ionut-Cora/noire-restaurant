@@ -135,6 +135,13 @@ header .header-paragraph {
     color: var(--secondary-color);
 }
 
+/* Menu page */
+/* Header */
+
+#menu-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/menu-header-bg.jpg) no-repeat center center/cover;
+}
+
 /* Footer */
 
 footer {
