@@ -46,6 +46,14 @@ a {
     background-color: var(--primary-color);
 }
 
+/* Form inputs border color change */
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 .10rem var(--primary-color);
+}
+
 /* Buttons */
 
 .custom-button-filled {
