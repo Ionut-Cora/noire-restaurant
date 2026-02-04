@@ -153,6 +153,13 @@ header .header-paragraph {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/about-us-header-bg.jpg) no-repeat center center/cover;
 }
 
+/* Gallery page */
+/* Header */
+
+#gallery-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/gallery-header-bg.jpg) no-repeat center center/cover;
+}
+
 /* Footer */
 
 footer {
