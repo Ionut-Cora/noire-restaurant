@@ -160,6 +160,13 @@ header .header-paragraph {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/gallery-header-bg.jpg) no-repeat center center/cover;
 }
 
+/* Reservations page */
+/* Header */
+
+#reservations-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/reservations-header-bg.jpg) no-repeat center center/cover;
+}
+
 /* Footer */
 
 footer {
