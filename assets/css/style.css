@@ -10,8 +10,7 @@
     --primary-color: #F6F1E7; /* Cream */
     --secondary-color: #3A2A1A; /* Espresso Brown */
     --third-color: #C9A24D; /* Gold */
-    --fourth-color: #1F3D2B ; /* Deep Green */
-    --fifth-color-hover: #B08D3E; /* Gold - hover */
+    --fourth-color-hover: #B08D3E; /* Gold - hover */
 }
 
 /* Global styles */
@@ -63,8 +62,8 @@ a {
 }
 
 .custom-button-filled:hover {
-    border: 2px solid var(--fifth-color-hover);
-    background-color: var(--fifth-color-hover);
+    border: 2px solid var(--fourth-color-hover);
+    background-color: var(--fourth-color-hover);
     color: white;
 }
 
@@ -75,7 +74,7 @@ a {
 }
 
 .custom-button-outline:hover {
-    background-color: var(--fifth-color-hover);
+    background-color: var(--fourth-color-hover);
     color: white;
 }
 
@@ -185,7 +184,7 @@ footer {
 }
 
 footer .follow-section i:hover {
-    color: var(--fourth-color);
+    color: var(--third-color);
 }
 
 /* Large devices (small laptops, 992px and up) */
