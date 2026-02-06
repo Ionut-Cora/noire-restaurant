@@ -177,6 +177,10 @@ header .header-paragraph {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/success-header-bg.jpg) no-repeat center center/cover;
 }
 
+#success-header h2 {
+    font-size: 1.2rem;
+}
+
 /* Footer */
 
 footer {
@@ -189,6 +193,15 @@ footer {
 
 footer .follow-section i:hover {
     color: var(--third-color);
+}
+
+/* Media queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    #success-header h2 {
+        font-size: 1.5rem;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
