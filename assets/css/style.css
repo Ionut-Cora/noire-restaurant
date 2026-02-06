@@ -134,6 +134,10 @@ header .header-paragraph {
     color: var(--secondary-color);
 }
 
+.reviews-section .card-title {
+    font-size: 1.25rem;
+}
+
 /* Menu page */
 /* Header */
 
