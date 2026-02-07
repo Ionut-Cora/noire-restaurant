@@ -60,13 +60,13 @@ a {
 .custom-button-filled {
     border: 2px solid var(--third-color);
     background-color: var(--third-color);
-    color: white;
+    color: #000000;
 }
 
 .custom-button-filled:hover {
     border: 2px solid var(--fourth-color-hover);
     background-color: var(--fourth-color-hover);
-    color: white;
+    color: #000000;
 }
 
 .custom-button-outline {
