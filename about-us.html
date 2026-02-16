@@ -154,6 +154,17 @@
               purpose: we investigate known flavours made better through
               considerate technique, nothing more for the sake of it.
             </p>
+            <div class="mt-2 mt-lg-3">
+              <!-- Trigger Button -->
+              <button
+                type="button"
+                class="btn custom-btn-outline-text-black rounded-0 text-capitalize mb-4"
+                data-bs-toggle="modal"
+                data-bs-target="#specialOfferModal"
+              >
+                Today's special &#x1F525;
+              </button>
+            </div>
           </div>
           <div
             class="col-12 col-lg-6 d-flex align-items-center justify-content-center ps-lg-5 mt-4 mt-lg-0"
@@ -681,6 +692,53 @@
         <p class="text-center">copyright &copy; Noire Restaurant 2026</p>
       </div>
     </footer>
+
+    <!-- Bootstrap modal -->
+     <div
+      class="modal fade"
+      id="specialOfferModal"
+      tabindex="-1"
+      aria-labelledby="specialOfferModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content restaurant-modal rounded-0">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="specialOfferModalLabel">
+              Chef's Special!
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body text-center py-0">
+            <img
+              src="./assets/images/image10.webp"
+              class="img-fluid mb-3"
+              alt="Salmon with vegetables"
+            />
+            <p class="lead fw-semibold">
+              Get <strong>30% off</strong> our signature dish today only! &#x1F525;
+            </p>
+          </div>
+
+          <div class="modal-footer border-0 justify-content-center">
+            <a href="./menu.html" class="btn custom-button-filled rounded-0 text-capitalize">Open menu</a>
+            <button
+              type="button"
+              class="btn custom-btn-outline-text-black rounded-0"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script
