@@ -225,6 +225,11 @@ footer .follow-section i:hover {
     color: var(--third-color);
 }
 
+/* Modal */
+.modal-title {
+    font-size: 1.25rem;
+}
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
