@@ -72,12 +72,23 @@ a {
 .custom-button-outline {
     border: 3px solid var(--third-color);
     padding: 7px 25px;
-    color: white;
+    color: #ffffff;
 }
 
 .custom-button-outline:hover {
     background-color: var(--fourth-color-hover);
-    color: white;
+    color: #ffffff;
+}
+
+.custom-btn-outline-text-black {
+    border: 3px solid var(--third-color);
+    padding: 7px 25px;
+    color: #000000;
+}
+
+.custom-btn-outline-text-black:hover {
+    background-color: var(--fourth-color-hover);
+    color: #000000;
 }
 
 /* Navbar */
