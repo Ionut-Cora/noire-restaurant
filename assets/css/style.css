@@ -93,8 +93,11 @@ a {
 
 /* Navbar */
 
+#navbar {
+    background-color: var(--primary-color);
+}
+
 #navbarNav {
-    background-color: var(--secondary-color);
     position: static;
 }
 
@@ -116,12 +119,16 @@ a {
     box-shadow: none;
 }
 
-.nav-link {
-    color: #ffffff;
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link,
+.navbar-nav .nav-link.active {
+    color: var(--secondary-color);
 }
 
-.nav-link:hover {
-    color: var(--third-color);
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+    color: var(--fourth-color-hover);
 }
 
 /* Header */
