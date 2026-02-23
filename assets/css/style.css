@@ -116,6 +116,14 @@ a {
     box-shadow: none;
 }
 
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: var(--third-color);
+}
+
 /* Header */
 
 #header .carousel-item1 {
